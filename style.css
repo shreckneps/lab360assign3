@@ -1,26 +1,60 @@
-nav {
-	background-color: teal;
-	list-style-type: none;
-	text-align: center;
-	padding: 0;
-	margin: 0;
+
+div.indent {
+   text-indent: 36px;
 }
 
+div.justify {
+   text-align: justify;
+}
+
+span.bigger {
+   font-size: 24px;
+}
+
+nav {
+   background-color: teal;
+   list-style-type: none;
+   text-align: center;
+   padding: 0;
+   margin: 0;
+}
+
+header {
+   background-color: teal;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+}
+
+footer {
+   background-color: teal;
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   right: 0;
+}
+
+div.top {
+   height: 80px;
+}
+
+
 nav li {
-	display: inline-block;
+   display: inline-block;
 }
 
 nav a {
-	display: inline-block;
-	font-size: 20px;
-	padding: 20px;
-	border-radius: 15px;
-	background-color: green;
-	text-decoration: none;
-	color: blue;
+   display: inline-block;
+   font-size: 20px;
+   padding: 20px;
+   border-radius: 15px;
+   background-color: green;
+   text-decoration: none;
+   color: blue;
 }
 
 nav a.current {
-	background-color: #80FF90;
-	color: #1BB8DF;
+   background-color: #80FF90;
+   color: #1BB8DF;
 }
